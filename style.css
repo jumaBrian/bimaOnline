@@ -1,4 +1,32 @@
+/*Global selector*/
 *{
     margin: 0;
     padding: 0;
+}
+/*Styling below applies to the icons obtained from iconify*/
+.iconify:hover{
+    color: #6f6f6f;
+}
+
+/*Styling below applies to the body*/
+body{
+    background-color: #fafafa;
+}
+
+/*Styling below applies to the footer*/
+footer{
+    bottom: 0;
+    background-color: ;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% ;
+}
+footer #footerParagraph{
+    font-size: 1vw;
+    font-weight: 500;
+    color: #6f6f6f;
+    margin-left: 10%;
+}
+footer #iconsDisplay{
+    margin-right: 20%;
 }
