@@ -2,7 +2,7 @@
 Version 1.0
 
 # Project Description
-The project is a website  for a fictional insuarance company - ' Bima Incorporated '. The website has been built with responsiveness in mind so that it will respond to the user's behaviour and environment based on their screen size, platform and screen orientation.
+The project is a website  for a fictional insuarance company - ' Bima Incorporated '. The website has been built with responsiveness in mind so that it will precisely respond to the user's behaviour and environment based on their screen size, platform and screen orientation.
 
 ## Technologies Used
 * HTML - which was used to build the structure of the pages.
