@@ -134,17 +134,51 @@ header #userAccounts button.member {
     padding: 3%;
     box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
 }
+#sectionTwo div:hover{
+    background-color: #23A6F0;
+    color: #fff;
+}
 #sectionTwo .cards .cardTitle{
     font-size: 1.2vw;
     padding: 5% 0;
     color: #252b42;
     font-weight: 700;
 }
+#sectionTwo .cards .cardTitle:hover{
+    color: #fff;
+}
 #sectionTwo .cards .cardText{
     color: #6f6f6f;
     font-weight: 500;
     letter-spacing: 0.05vw;
     font-size: 0.9vw;   
+}
+#sectionTwo .cards .cardText:hover{
+    color: #fff;
+}
+/*Styling below applies to Section three: includes company values*/
+#sectionThree{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+    padding: 8% 15% 8% 15%;
+}
+#sectionThree .companyValuesCard{
+    text-align: center;
+}
+#sectionThree .cardTitle{
+    font-size: 1.2vw;
+    padding: 5% 0;
+    color: #252b42;
+    font-weight: 700;
+}
+#sectionThree .cardText{
+    color: #6f6f6f;
+    font-weight: 500;
+    letter-spacing: 0.05vw;
+    font-size: 0.9vw;   
+
 }
 /*Styling below applies to the footer*/
 footer{
