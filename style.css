@@ -237,6 +237,87 @@ header #userAccounts button.member {
     height: 4vw;
     margin-top: -1%;
 }
+#sectionFour #newsletter{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(90deg, #024688, #d21589);
+    padding: 3% 5% 3% 5%;
+}
+#sectionFour #newsletter p{
+    text-align: left;
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+#sectionFour form{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+}
+#sectionFour form #email{
+    width: 50%;
+    font-size: 1vw;
+    padding:2.8% 6% 2.8% 6% ;
+    border-radius: 0.3vw 0 0 0.3vw;
+    border: none;
+}
+#sectionFour form #submit{
+    width: 20%;
+    background-color: #23A6F0;
+    color: #fff;
+    font-size: 1vw;
+    border-radius: 0 0.3vw 0.3vw 0;
+    border: none;    
+}
+#sectionFour .pricing{
+    margin-top: 5%;
+}
+#sectionFour .pricing #title{
+    font-size: 3vw;
+    color: #252b42;
+    font-weight: 700;
+    margin-top: 10%;
+}
+#sectionFour .pricing #text{
+    padding: 1% 25%;
+    color: #6f6f6f;
+    font-weight: 500;
+    letter-spacing: 0.05vw;
+    font-size: 0.9vw;
+    line-height: 1.5vw;
+}
+
+/*Styling below applies to Section Five: */
+#sectionFive{
+    background-color: #252b42;
+    padding: 5% 15% 25% 15%;
+}
+#sectionFive #branches{
+    display: flex;
+    justify-content: center;
+}
+#sectionFive #branches #left{
+    width: 50%;
+    padding-right: 10%;
+    color: #fff;
+}
+#sectionFive #branches #left #title{
+    font-size: 2vw;
+    font-weight: 700;
+}
+#sectionFive #branches #left #text{
+    font-size:0.8vw;
+    font-weight: 500;
+    padding: 2% 0;
+}
+#sectionFive #branches #right{
+    width: 50%;
+}
+#sectionFive #branches #right img{
+    width: 30vw;
+    margin-left: 2%;
+}
+
 
 /*Styling below applies to the footer*/
 footer{
