@@ -18,7 +18,7 @@ body{
     background-color: #fafafa;
     font-family: "Montserrat", sans-serif;
 }
-/*Styling below applies to section one( header plus banner area)*/
+/*Styling below applies to section one: includes header plus banner area)*/
 #sectionOne{
     background-image: url(assets/hero-cover3.png);
     background-size: cover;
@@ -81,7 +81,7 @@ header #userAccounts button.member {
 
 #banner{
     text-align: center;
-    padding-bottom: 15%;
+    padding-bottom: 14%;
 }
 #banner p#largeParagraphBanner {
     font-size: 4vw;
@@ -93,7 +93,7 @@ header #userAccounts button.member {
     padding: 5% 10%;
 }
 #banner .text{
-    padding: 10% 10% 5%;
+    padding: 10% 10% 4%;
 }
 #banner .buttons{
     display: flex;
@@ -120,6 +120,32 @@ header #userAccounts button.member {
     margin-left: 1.5%;
 }
 
+/*Styling below applies to Section Two: includes three floating cards under the banner area*/
+#sectionTwo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 15% 5% 15%;
+}
+#sectionTwo .cards{
+    margin-top: -14%;
+    background-color: #fff;
+    width: 30%;
+    padding: 3%;
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
+}
+#sectionTwo .cards .cardTitle{
+    font-size: 1.2vw;
+    padding: 5% 0;
+    color: #252b42;
+    font-weight: 700;
+}
+#sectionTwo .cards .cardText{
+    color: #6f6f6f;
+    font-weight: 500;
+    letter-spacing: 0.05vw;
+    font-size: 0.9vw;   
+}
 /*Styling below applies to the footer*/
 footer{
     bottom: 0;

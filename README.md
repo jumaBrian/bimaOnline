@@ -7,7 +7,7 @@ The project is a website  for a fictional insuarance company - ' Bima Incorporat
 ## Technologies Used
 * HTML - which was used to build the structure of the pages.
 * CSS - which was used in styling the pages.
-* Content Delivery Networks,CDN - for third party styling namely Google Fonts, Iconify and Font-awesome icons.
+* Content Delivery Networks,CDN - for third party styling namely Google Fonts and Iconify.
 * Visual Studio Code was my core  editor.
   
 ## Setup Installation
