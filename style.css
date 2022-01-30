@@ -125,7 +125,7 @@ header #userAccounts button.member {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 5% 15% 5% 15%;
+    padding: 5% 15% 6% 15%;
 }
 #sectionTwo .cards{
     margin-top: -14%;
@@ -178,8 +178,66 @@ header #userAccounts button.member {
     font-weight: 500;
     letter-spacing: 0.05vw;
     font-size: 0.9vw;   
-
 }
+
+/*Styling below applies to Section four: includes*/
+#sectionFour{
+    padding: 5% 15% 5% 15%;
+    text-align: center;
+    background-color: #fafafa;
+}
+#sectionFour #section4Title{
+    font-size: 3vw;
+    color: #252b42;
+    font-weight: 700;
+}
+#sectionFour #paragraph1{
+    padding: 1% 25%;
+    color: #6f6f6f;
+    font-weight: 500;
+    letter-spacing: 0.05vw;
+    font-size: 0.9vw;
+    line-height: 1.5vw;
+}
+#sectionFour #pastRevievs{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20%;    
+    padding-top: 5%;
+}
+#sectionFour #pastRevievs .reviewCard{
+    border: solid 0.1vw rgba(0, 0, 0, 0.2);
+    border-radius: 0.5vw;
+    background-color: #fff;
+    width: 30%;
+    padding: 4% 3% 4% 3%;
+}
+#sectionFour #pastRevievs .reviewCard img{
+    width:9vw ;
+}
+#sectionFour #pastRevievs .reviewCard p{
+    color: #6f6f6f;
+    font-size: 1vw;
+    font-weight: 500;
+    padding-top: 10%;
+}
+#sectionFour #pastRevievs .reviewCard div{
+    margin-top: 10%;
+}
+#sectionFour .patnerCompanies{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 8%;
+}
+#sectionFour .patnerCompanies img{
+    width: 5vw;
+    height: 3vw;
+}
+#sectionFour .patnerCompanies img:nth-child(6){
+    height: 4vw;
+    margin-top: -1%;
+}
+
 /*Styling below applies to the footer*/
 footer{
     bottom: 0;
