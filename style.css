@@ -2,31 +2,137 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+/*Styling for all buttons on page*/
+button{
+    cursor: pointer;
 }
 /*Styling below applies to the icons obtained from iconify*/
-.iconify:hover{
+.iconify span:hover{
     color: #6f6f6f;
 }
 
 /*Styling below applies to the body*/
 body{
     background-color: #fafafa;
+    font-family: "Montserrat", sans-serif;
+}
+/*Styling below applies to section one( header plus banner area)*/
+#sectionOne{
+    background-image: url(assets/hero-cover3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 0 15%;
+    color: #fff;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 0 4% 0;
+    font-size: 1vw;
+}
+header #brand h1{
+    font-weight: 900;
+    font-size: 1.7vw;
+}
+header #navigation{
+    width: 50%;
+    margin-left: 10%;
+}
+header #navigation ul{
+    list-style-type: none;
+}
+header #navigation li{
+    display: inline-block;
+    font-weight: 600;
+    margin: 0 2%;
+    font-size: 1vw;
+}
+header #navigation a{
+    text-decoration: none;
+    color: #fff;
+}
+header #userAccounts{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+header #userAccounts button.login{
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    background: none;
+    font-size: 1vw;
+    margin: 0 2vw;
+    margin-right: 3%;
+}
+header #userAccounts button.member {
+    background-color: #23A6F0;
+    font-size: 1vw;
+    color: #fff;
+    font-weight: 600;
+    border: solid 0.1vw #23a6f0;
+    border-radius: 0.4vw;
+    padding: 3% 7% 2% 5%;
+}
+
+#banner{
+    text-align: center;
+    padding-bottom: 15%;
+}
+#banner p#largeParagraphBanner {
+    font-size: 4vw;
+    font-weight: 800;
+}
+#banner p#smallParagraphBanner{
+    font-size: 1.4vw;
+    font-weight: 500;
+    padding: 5% 10%;
+}
+#banner .text{
+    padding: 10% 10% 5%;
+}
+#banner .buttons{
+    display: flex;
+    justify-content: center;
+}
+#banner .buttons #btnOne{
+    background-color: #23A6F0;
+    border: solid 0.1vw #23a6f0;
+    border-radius: 2vw;
+    padding: 2% 4%;
+    font-size: 1vw;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 1.5%;
+}
+#banner .buttons #btnTwo{
+    background: none;
+    border: solid 0.1vw #fff;
+    border-radius: 2vw;
+    padding: 2% 4%;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 1.5%;
 }
 
 /*Styling below applies to the footer*/
 footer{
     bottom: 0;
-    background-color: ;
     display: flex;
     justify-content: space-between;
     padding: 1% ;
 }
 footer #footerParagraph{
-    font-size: 1vw;
+    font-size: 0.9vw;
     font-weight: 500;
     color: #6f6f6f;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 footer #iconsDisplay{
-    margin-right: 20%;
+    margin-right: 14%;
 }
