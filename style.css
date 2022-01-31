@@ -387,6 +387,38 @@ header #userAccounts button.member {
     border-radius: 0.5vw;
 }
 
+/*Styling below applies to Section Seven: includes area under booking appointment form*/
+#sectionSeven{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 15% 25% 15%;
+    margin-top: 5%;
+}
+#sectionSeven .left #title{
+    font-size: 2vw;
+    color: #252b42;
+    font-weight: 700;
+}
+#sectionSeven .left #text{
+    color: #6f6f6f;
+    font-weight: 500;
+    letter-spacing: 0.05vw;
+    font-size: 1vw;
+}
+#sectionSeven .right{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+#sectionSeven .right button{
+    background-color: #23a6f0;
+    color: #fff;
+    font-size: 1vw;
+    font-weight: 600;
+    border-radius: 0.5vw;
+    border: none;
+    padding: 5% 10% 5% 10%;
+}
 /*Styling below applies to the footer*/
 footer{
     bottom: 0;
