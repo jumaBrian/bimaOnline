@@ -9,15 +9,7 @@ button{
     cursor: pointer;
 }
 /*Styling below applies to the icons obtained from iconify*/
-span.iconify:hover{
-    color: #6f6f6f;
-}
-@media (max-width: 900px) {
-    span.iconify{
-       data-width:20;
-       data-height:20;
-    }
-  }
+
 /*Styling below applies to the body*/
 body{
     background-color: #fafafa;
