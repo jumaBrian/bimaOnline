@@ -286,7 +286,41 @@ header #userAccounts button.member {
     font-size: 0.9vw;
     line-height: 1.5vw;
 }
-
+#sectionFour #subscriptions{
+    padding: 10% 0 10% 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.subscriptionCard{
+    width: 30%;
+    border: solid 0.15vw #23a6f0;
+    border-radius: 0.5vw;
+    padding: 4%;
+    margin: 0 0.2%;
+}
+#middleCard{
+    margin-top: -3%;
+    padding-top: 7%;
+    background-color: #252b42;
+}
+#middleCard #title{
+    color: #fff;
+}
+#middleCard #paragraph{
+    color: #fff;
+}
+.subscriptionCard #title{
+    font-size: 2vw;
+    color: #252b42;
+    font-weight: 700;
+}
+.subscriptionCard  #paragraph{
+    color: #6f6f6f;
+    font-size: 0.9vw;
+    font-weight: 500;
+    padding: 15% ;
+}
 /*Styling below applies to Section Five: */
 #sectionFive{
     background-color: #252b42;
