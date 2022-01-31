@@ -162,7 +162,7 @@ header #userAccounts button.member {
     justify-content: space-between;
     width: 100%;
     background-color: #fff;
-    padding: 8% 15% 8% 15%;
+    padding: 10% 15% 12% 15%;
 }
 #sectionThree .companyValuesCard{
     text-align: center;
@@ -182,7 +182,7 @@ header #userAccounts button.member {
 
 /*Styling below applies to Section four: includes*/
 #sectionFour{
-    padding: 5% 15% 5% 15%;
+    padding: 6% 15% 5% 15%;
     text-align: center;
     background-color: #fafafa;
 }
@@ -287,7 +287,7 @@ header #userAccounts button.member {
     line-height: 1.5vw;
 }
 #sectionFour #subscriptions{
-    padding: 10% 0 10% 0;
+    padding: 15% 0 10% 0;
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
@@ -383,6 +383,7 @@ header #userAccounts button.member {
 #sectionFive #branches #left #title{
     font-size: 2vw;
     font-weight: 700;
+    margin-bottom: 6%;
 }
 #sectionFive #branches #left #text{
     font-size:0.8vw;
