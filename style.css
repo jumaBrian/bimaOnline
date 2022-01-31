@@ -391,8 +391,11 @@ header #userAccounts button.member {
 #sectionSeven{
     display: flex;
     justify-content: space-between;
-    padding: 5% 15% 25% 15%;
+    padding: 5% 15% 5% 15%;
     margin-top: 5%;
+}
+#sectionSeven .left{
+    width: 70%;
 }
 #sectionSeven .left #title{
     font-size: 2vw;
@@ -419,6 +422,63 @@ header #userAccounts button.member {
     border: none;
     padding: 5% 10% 5% 10%;
 }
+
+/*Styling below applies to Section Eight: includes Useful Links*/
+#sectionEight{
+    background-color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5% 15% 5% 15%;
+}
+#sectionEight a{
+    text-decoration: none;
+    color: #6f6f6f;
+}
+#sectionEight ul{
+    list-style-type: none;
+}
+#sectionEight li{
+    font-size: 1vw;
+    margin: 13% 0;
+}
+#sectionEight #companyInfo ul[title]::before{
+    content: attr(title);
+    display: block;
+    font-weight: 700;
+    font-size: 1vw;
+    margin-bottom: 30%;
+}
+#sectionEight #legal ul[title]::before{
+    content: attr(title);
+    display: block;
+    font-weight: 700;
+    font-size: 1vw;
+    margin-bottom: 30%;
+}
+#sectionEight #features ul[title]::before{
+    content: attr(title);
+    display: block;
+    font-weight: 700;
+    font-size: 1vw;
+    margin-bottom: 20%;
+}
+#sectionEight #resources ul[title]::before{
+    content: attr(title);
+    display: block;
+    font-weight: 700;
+    font-size: 1vw;
+    margin-bottom: 20%;
+}
+#sectionEight #getInTouch ul[title]::before{
+    content: attr(title);
+    display: block;
+    font-weight: 700;
+    font-size: 1vw;
+    margin-bottom: 10%;
+}
+
+
 /*Styling below applies to the footer*/
 footer{
     bottom: 0;
