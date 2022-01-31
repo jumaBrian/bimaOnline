@@ -317,7 +317,75 @@ header #userAccounts button.member {
     width: 30vw;
     margin-left: 2%;
 }
+/*Styling below applies to Section Six: */
+#sectionSix{
+    margin-top: -25%;
+    padding: 5% 15% 0 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
 
+}
+#sectionSix #bookAppointment{
+    background-image: url("assets/contact-cover2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 5%;
+    padding: 5% 0;
+}
+#sectionSix #bookAppointment #image{
+    width: 40%;
+} 
+#sectionSix #bookAppointment #form{
+    width: 60%;
+}
+#sectionSix #bookAppointment #form form{
+    padding-right: 15%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+#sectionSix #bookAppointment #form form p{
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 1.5vw;
+    color: #252b42;
+}
+#sectionSix #bookAppointment #form form label{
+    font-weight: 500;
+    font-size: 1vw;
+    padding: 3% 0 2% 0;
+}
+#sectionSix #bookAppointment #form form input{
+    border: solid 0.1vw rgba(0, 0, 0, 0.1);
+    border-radius: 0.5vw;
+    font-size: 1vw;
+    background-color: #f9f9f9;
+    padding: 3%;
+}
+#sectionSix #bookAppointment #form form select{
+    background-color: #f9f9f9;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1vw;
+    border: solid 0.1vw rgba(0, 0, 0, 0.1);
+    border-radius: 0.5vw;
+    padding: 3%;
+}
+#sectionSix #bookAppointment #form form button{
+    margin-top: 9%;
+    background-color: #23a6f0;
+    color: #fff;
+    font-weight: 500;
+    padding: 3%;
+    border: solid 0.1vw rgba(0, 0, 0, 0.1);
+    border-radius: 0.5vw;
+}
 
 /*Styling below applies to the footer*/
 footer{
