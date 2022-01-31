@@ -310,6 +310,9 @@ header #userAccounts button.member {
 #middleCard #paragraph{
     color: #fff;
 }
+#middleCard a{
+    color: #fff;
+}
 .subscriptionCard #title{
     font-size: 2vw;
     color: #252b42;
@@ -320,6 +323,34 @@ header #userAccounts button.member {
     font-size: 0.9vw;
     font-weight: 500;
     padding: 15% ;
+}
+.cost{
+    font-weight: 600;
+    font-size: 2.5vw;
+    color: #23a6f0;
+}
+.cost .dollar{
+    font-size: 1.3vw;
+    position: absolute;
+    margin-top: -1%;
+}
+.cost .duration{
+    font-weight: 500;
+    font-size: 1vw;
+    color: #8ec2f2;
+}
+.subscriptionCard ul{
+    list-style-type: none;
+    margin-top: 10%;
+    text-align: left;
+}
+.subscriptionCard li{
+    margin: 2%;
+}
+.subscriptionCard a{
+    text-decoration: none;
+    color: black;
+    vertical-align: top;
 }
 /*Styling below applies to Section Five: */
 #sectionFive{
