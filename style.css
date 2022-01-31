@@ -303,6 +303,7 @@ header #userAccounts button.member {
     margin-top: -3%;
     padding-top: 7%;
     background-color: #252b42;
+    margin-bottom: -3%;
 }
 #middleCard #title{
     color: #fff;
@@ -346,11 +347,24 @@ header #userAccounts button.member {
 }
 .subscriptionCard li{
     margin: 2%;
+    font-weight: 400;
 }
 .subscriptionCard a{
     text-decoration: none;
     color: black;
     vertical-align: top;
+}
+.subscriptionCard button{
+    color: #fff;
+    background-color: #23A6F0;
+    font-size: 0.7vw;
+    font-weight: 600;
+    padding: 4% 7%;
+    border: none;
+    border-radius: 0.3vw;
+    margin:10%;
+    margin-top: 15%;
+  
 }
 /*Styling below applies to Section Five: */
 #sectionFive{
