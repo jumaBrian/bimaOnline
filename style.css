@@ -557,6 +557,9 @@ header #userAccounts button.member {
     font-size: 1vw;
     margin-bottom: 10%;
 }
+#sectionEight #getInTouch li{
+    vertical-align: top;
+}
 /*Styling below applies to the footer*/
 footer{
     bottom: 0;
