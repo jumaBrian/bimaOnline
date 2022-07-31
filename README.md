@@ -1,6 +1,5 @@
 # Bima Online
-Version 1.0
-
+![Screenshot from 2022-08-01 01-17-47](https://user-images.githubusercontent.com/98020785/182047490-8147170d-dfd3-4954-a6f1-1e595c750de7.png)
 # Project Description
 The project is a website  for a fictional insuarance company - ' Bima Incorporated '. The website has been built with responsiveness in mind so that it will precisely respond to the user's behaviour and environment based on their screen size, platform and screen orientation.
 i.e Desktop and mobile
